@@ -1,0 +1,158 @@
+main:
+  - title: 1. Graph Embedding Dynamic Feature-based Supervised Contrastive Learning of Transient Stability for Changing Power Grid Topologies
+    authors: Zijian Lv, <strong>Xin Chen*</strong>, and Zijian Feng
+    conference_short: 
+    conference: 
+    pdf: https://arxiv.org/pdf/2306.00988.pdf
+    code:
+    bibtex: 
+    image: ./assets/img/teaser_example.png
+    notes: 
+
+  - title: 2. Deep Reinforcement Learning-Based Battery Conditioning Hierarchical V2G Coordination for Multi-Stakeholder Benefits  
+    authors: Yubao Zhang, <strong>Xin Chen*</strong>, Yi Gu, Zhicheng Li, Wu Kai
+    journal_short: 
+    Journal: 
+    pdf: https://arxiv.org/pdf/2308.00218.pdf
+    code:
+    bibtex: 
+    image: ./assets/img/teaser_example_2.png
+    notes: 
+
+  - title: 3. Transferable Deep Learning Power System Short-Term Voltage Stability Assessment with Physics-Informed Topological Feature Engineering 
+    authors: Zijian Feng, <strong>Xin Chen*</strong>, Zijian Lv, Peiyuan Sun, Kai Wu
+    journal_short: 
+    Journal: 
+    pdf: https://arxiv.org/pdf/2303.07138.pdf
+    code:
+    bibtex: 
+    image: ./assets/img/teaser_example_2.png
+    notes: 
+
+  - title: 4. Optimal Inter-area Oscillation Damping Control A Transfer Deep Reinforcement Learning Approach with Switching Control Strategy
+    authors: Siyuan Liang, Long Huo, <strong>Xin Chen*</strong>, Peiyuan Sun
+    journal_short: 
+    Journal: 
+    pdf: https://arxiv.org/pdf/2301.09321.pdf
+    code:
+    bibtex: 
+    image: ./assets/img/teaser_example_2.png
+    notes: 
+
+  - title: 5. DIICAN Dual Time-scale State-Coupled Co-estimation of SOC, SOH and RUL for Lithium-Ion Batteries
+    authors: Ningbo Cai, Yuwen Qin, <strong>Xin Chen*</strong>, Kai Wu
+    journal_short: 
+    Journal: 
+    pdf: https://arxiv.org/pdf/2210.11941.pdf
+    code:
+    bibtex: 
+    image: ./assets/img/teaser_example_2.png
+    notes: 
+
+
+  - title: 6. A Self-attention Knowledge Domain Adaptation Network for Commercial Lithium-ion Batteries State-of-health Estimation under Shallow Cycles
+    authors: <strong>Xin Chen*</strong>, Yuwen Qin, Weidong Zhao, Qiming Yang, Ningbo Cai, Kai Wu
+    journal_short: 
+    Journal: 
+    pdf: https://arxiv.org/pdf/2304.05084.pdf
+    code:
+    bibtex: 
+    image: ./assets/img/teaser_example.png
+    notes: 
+
+
+  - title: 7.Remaining Useful Life Prediction Using Temporal Deep Degradation Network for Complex Machinery with Attention-based Feature Extraction
+    authors: Yuwen Qin, Ningbo Cai, Chen Gao, Yadong Zhang, Yonghong Cheng, <strong>Xin Chen*</strong>
+    journal_short: 
+    Journal: 
+    pdf: https://arxiv.org/pdf/2202.10916.pdf
+    code:
+    bibtex: 
+    image: ./assets/img/teaser_example.png
+    notes: 
+
+
+  - title: 8. Higher-order motif-based time series classification for forced oscillation source location in power grids, Nonlinear Dynamics,  111, 20127–20138 (2023)
+    authors: Long Huo, <strong>Xin Chen*</strong>
+    journal_short:  
+    Journal: 
+    pdf: https://arxiv.org/pdf/2306.13397.pdf
+    code:
+    bibtex: 
+    image: ./assets/img/teaser_example.png
+    notes: 
+
+
+  - title: 9. Rotor Angle Stability Prediction using Temporal and Topological Embedding Deep Neural Network Based on Grid-Informed Adjacency Matrix, Journal of Modern Power Systems and Clean Energy, 
+    authors: P. Sun, L. Huo, <strong>X. Chen*</strong> and S. Liang, 
+    journal_short: 
+    Journal: 
+    pdf: https://ieeexplore.ieee.org/document/10234142
+    code:
+    bibtex: 
+    image: ./assets/img/teaser_example.png
+    notes: Early Access
+
+  - title: 10.  Collective Large-scale Wind Farm Multivariate Power Output Control Based on Hierarchical Communication Multi-Agent Proximal Policy Optimization,  Renewable Energy, 219, 119479 (2023)
+    authors: Yubao Zhang, <strong>Xin Chen*</strong>, Sumei Gong, and Jiehao Chen,
+    journal_short:  Renewable Energy
+    Journal: Renewable Energy, 
+    pdf: https://arxiv.org/abs/2305.10161
+    code:
+    bibtex: 
+    image: ./assets/img/teaser_example_2.png
+    notes: 
+
+  - title: 11. State of Health prediction of lithium-ion batteries based on temporal degeneration feature extraction with Deep Cycle Attention Network, Journal of Energy Storage, 65, 107367 (2023)
+    authors: Chenye Zou, <strong>Xin Chen*</strong>, Yadong Zhang, 
+    journal_short: 
+    Journal: 
+    pdf: https://arxiv.org/pdf/2202.06738.pdf
+    code:
+    bibtex: 
+    image: ./assets/img/teaser_example_2.png
+    notes: 
+
+
+  - title: 12. Power network uniqueness and synchronization stability from a higher-order structure perspective, Physica D Nonlinear Phenomena, 443, 133557(2023) 
+    authors: H. Liu, <strong>X. Chen*</strong>, L. Huo, C. Niu
+    journal_short: 
+    Journal: 
+    pdf: https://arxiv.org/pdf/2203.13256.pdf
+    code:
+    bibtex: 
+    image: ./assets/img/teaser_example_2.png
+    notes: 
+
+
+  - title: 13. Impact of inter-network assortativity on robustness against cascading failures in cyber–physical power systems, Reliability Engineering & System Safety 217, 108068,(2022)
+    authors: H. Liu, <strong>X. Chen*</strong>, L. Huo, Y. Zhang, C. Niu
+    journal_short: 
+    Journal: 
+    pdf: 
+    code:
+    bibtex: 
+    image: ./assets/img/teaser_example_2.png
+    notes: 
+
+
+  - title: 14. The waiting-time distribution for network partitions in cascading failures in power networks, Physica A Statistical Mechanics and its Applications 598, 127381, (2022)
+    authors:  L. Huo, <strong>X. Chen*</strong>,
+    journal_short: 
+    Journal: 
+    pdf: https://arxiv.org/pdf/2203.05130.pdf
+    code:
+    bibtex: 
+    image: ./assets/img/teaser_example_2.png
+    notes: 
+
+
+  - title: 15.  Motif difference field An effective image-based time series classification and applications in machine malfunction detection
+    authors: Y. Zhang, F. Gan, <strong>X. Chen</strong>
+    conference_short: 
+    conference: 2020 IEEE 4th Conference on Energy Internet and Energy System Integration 
+    pdf: https://arxiv.org/pdf/2001.07582.pdf
+    code:
+    bibtex: 
+    image: ./assets/img/teaser_example_2.png
+    notes: 

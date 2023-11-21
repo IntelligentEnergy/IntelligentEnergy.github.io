@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 20%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: red;
+  font-weight: bold;
+  font-size: 100px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: white;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  right: 0
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.5;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+</style>
+<body>
+
+<div class="container">
+  <div class="mySlides">
+  <div class="numbertext">1 / 36</div>
+  <img src="static/storageeco/1.PNG" style="width:100%">
+</div>
+<div class="mySlides">
+  <div class="numbertext">2 / 36</div>
+  <img src="static/storageeco/2.PNG" style="width:100%">
+</div>
+<div class="mySlides">
+  <div class="numbertext">3 / 36</div>
+  <img src="static/storageeco/3.PNG" style="width:100%">
+</div>
+<div class="mySlides">
+  <div class="numbertext">4 / 36</div>
+  <img src="static/storageeco/4.PNG" style="width:100%">
+</div>
+<div class="mySlides">
+  <div class="numbertext">5 / 36</div>
+  <img src="static/storageeco/5.PNG" style="width:100%">
+</div>
+<div class="mySlides">
+  <div class="numbertext">6 / 36</div>
+  <img src="static/storageeco/6.PNG" style="width:100%">
+</div>
+<div class="mySlides">
+  <div class="numbertext">7 / 36</div>
+  <img src="static/storageeco/7.PNG" style="width:100%">
+</div>
+<div class="mySlides">
+  <div class="numbertext">8 / 36</div>
+  <img src="static/storageeco/8.PNG" style="width:100%">
+</div>
+<div class="mySlides">
+  <div class="numbertext">9 / 36</div>
+  <img src="static/storageeco/9.PNG" style="width:100%">
+</div>
+<div class="mySlides">
+  <div class="numbertext">10 / 36</div>
+  <img src="static/storageeco/10.PNG" style="width:100%">
+</div>
+<div class="mySlides">
+  <div class="numbertext">11 / 36</div>
+  <img src="static/storageeco/11.PNG" style="width:100%">
+</div>
+<div class="mySlides">
+  <div class="numbertext">12 / 36</div>
+  <img src="static/storageeco/12.PNG" style="width:100%">
+</div>
+<div class="mySlides">
+  <div class="numbertext">13 / 36</div>
+  <img src="static/storageeco/13.PNG" style="width:100%">
+</div>
+<div class="mySlides">
+  <div class="numbertext">14 / 36</div>
+  <img src="static/storageeco/14.PNG" style="width:100%">
+</div>
+<div class="mySlides">
+  <div class="numbertext">15 / 36</div>
+  <img src="static/storageeco/15.PNG" style="width:100%">
+</div>
+<div class="mySlides">
+  <div class="numbertext">16 / 36</div>
+  <img src="static/storageeco/16.PNG" style="width:100%">
+</div>
+<div class="mySlides">
+  <div class="numbertext">17 / 36</div>
+  <img src="static/storageeco/17.PNG" style="width:100%">
+</div>
+<div class="mySlides">
+  <div class="numbertext">18 / 36</div>
+  <img src="static/storageeco/18.PNG" style="width:100%">
+</div>
+<div class="mySlides">
+  <div class="numbertext">19 / 36</div>
+  <img src="static/storageeco/19.PNG" style="width:100%">
+</div>
+<div class="mySlides">
+  <div class="numbertext">20 / 36</div>
+  <img src="static/storageeco/20.PNG" style="width:100%">
+</div>
+<div class="mySlides">
+  <div class="numbertext">21 / 36</div>
+  <img src="static/storageeco/21.PNG" style="width:100%">
+</div>
+<div class="mySlides">
+  <div class="numbertext">22 / 36</div>
+  <img src="static/storageeco/22.PNG" style="width:100%">
+</div>
+<div class="mySlides">
+  <div class="numbertext">23 / 36</div>
+  <img src="static/storageeco/23.PNG" style="width:100%">
+</div>
+<div class="mySlides">
+  <div class="numbertext">24 / 36</div>
+  <img src="static/storageeco/24.PNG" style="width:100%">
+</div>
+<div class="mySlides">
+  <div class="numbertext">25 / 36</div>
+  <img src="static/storageeco/25.PNG" style="width:100%">
+</div>
+<div class="mySlides">
+  <div class="numbertext">26 / 36</div>
+  <img src="static/storageeco/26.PNG" style="width:100%">
+</div>
+<div class="mySlides">
+  <div class="numbertext">27 / 36</div>
+  <img src="static/storageeco/27.PNG" style="width:100%">
+</div>
+<div class="mySlides">
+  <div class="numbertext">28 / 36</div>
+  <img src="static/storageeco/28.PNG" style="width:100%">
+</div>
+<div class="mySlides">
+  <div class="numbertext">29 / 36</div>
+  <img src="static/storageeco/29.PNG" style="width:100%">
+</div>
+<div class="mySlides">
+  <div class="numbertext">30 / 36</div>
+  <img src="static/storageeco/30.PNG" style="width:100%">
+</div>
+<div class="mySlides">
+  <div class="numbertext">31 / 36</div>
+  <img src="static/storageeco/31.PNG" style="width:100%">
+</div>
+<div class="mySlides">
+  <div class="numbertext">32 / 36</div>
+  <img src="static/storageeco/32.PNG" style="width:100%">
+</div>
+<div class="mySlides">
+  <div class="numbertext">33 / 36</div>
+  <img src="static/storageeco/33.PNG" style="width:100%">
+</div>
+<div class="mySlides">
+  <div class="numbertext">34 / 36</div>
+  <img src="static/storageeco/36.PNG" style="width:100%">
+</div>
+<div class="mySlides">
+  <div class="numbertext">35 / 36</div>
+  <img src="static/storageeco/31.PNG" style="width:100%">
+</div>
+<div class="mySlides">
+  <div class="numbertext">36 / 36</div>
+  <img src="static/storageeco/32.PNG" style="width:100%">
+</div>
+
+  <a class="prev" onclick="plusSlides(-1)"><</a>
+  <a class="next" onclick="plusSlides(1)">></a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+  <img class="demo cursor" src="static/storageeco/1.PNG" style="width:100%" onclick="currentSlide(1)" alt="1">
+</div>
+<div class="column">
+  <img class="demo cursor" src="static/storageeco/2.PNG" style="width:100%" onclick="currentSlide(2)" alt="2">
+</div>
+<div class="column">
+  <img class="demo cursor" src="static/storageeco/3.PNG" style="width:100%" onclick="currentSlide(3)" alt="3">
+</div>
+<div class="column">
+  <img class="demo cursor" src="static/storageeco/4.PNG" style="width:100%" onclick="currentSlide(4)" alt="4">
+</div>
+<div class="column">
+  <img class="demo cursor" src="static/storageeco/5.PNG" style="width:100%" onclick="currentSlide(5)" alt="5">
+</div>
+<div class="column">
+  <img class="demo cursor" src="static/storageeco/6.PNG" style="width:100%" onclick="currentSlide(6)" alt="6">
+</div>
+<div class="column">
+  <img class="demo cursor" src="static/storageeco/7.PNG" style="width:100%" onclick="currentSlide(7)" alt="7">
+</div>
+<div class="column">
+  <img class="demo cursor" src="static/storageeco/8.PNG" style="width:100%" onclick="currentSlide(8)" alt="8">
+</div>
+<div class="column">
+  <img class="demo cursor" src="static/storageeco/9.PNG" style="width:100%" onclick="currentSlide(9)" alt="9">
+</div>
+<div class="column">
+  <img class="demo cursor" src="static/storageeco/10.PNG" style="width:100%" onclick="currentSlide(10)" alt="10">
+</div>
+<div class="column">
+  <img class="demo cursor" src="static/storageeco/11.PNG" style="width:100%" onclick="currentSlide(11)" alt="11">
+</div>
+<div class="column">
+  <img class="demo cursor" src="static/storageeco/12.PNG" style="width:100%" onclick="currentSlide(12)" alt="12">
+</div>
+<div class="column">
+  <img class="demo cursor" src="static/storageeco/13.PNG" style="width:100%" onclick="currentSlide(13)" alt="13">
+</div>
+<div class="column">
+  <img class="demo cursor" src="static/storageeco/14.PNG" style="width:100%" onclick="currentSlide(14)" alt="14">
+</div>
+<div class="column">
+  <img class="demo cursor" src="static/storageeco/15.PNG" style="width:100%" onclick="currentSlide(15)" alt="15">
+</div>
+<div class="column">
+  <img class="demo cursor" src="static/storageeco/16.PNG" style="width:100%" onclick="currentSlide(16)" alt="16">
+</div>
+<div class="column">
+  <img class="demo cursor" src="static/storageeco/17.PNG" style="width:100%" onclick="currentSlide(17)" alt="17">
+</div>
+<div class="column">
+  <img class="demo cursor" src="static/storageeco/18.PNG" style="width:100%" onclick="currentSlide(18)" alt="18">
+</div>
+<div class="column">
+  <img class="demo cursor" src="static/storageeco/19.PNG" style="width:100%" onclick="currentSlide(19)" alt="19">
+</div>
+<div class="column">
+  <img class="demo cursor" src="static/storageeco/20.PNG" style="width:100%" onclick="currentSlide(20)" alt="20">
+</div>
+<div class="column">
+  <img class="demo cursor" src="static/storageeco/21.PNG" style="width:100%" onclick="currentSlide(21)" alt="21">
+</div>
+<div class="column">
+  <img class="demo cursor" src="static/storageeco/22.PNG" style="width:100%" onclick="currentSlide(22)" alt="22">
+</div>
+<div class="column">
+  <img class="demo cursor" src="static/storageeco/23.PNG" style="width:100%" onclick="currentSlide(23)" alt="23">
+</div>
+<div class="column">
+  <img class="demo cursor" src="static/storageeco/24.PNG" style="width:100%" onclick="currentSlide(24)" alt="24">
+</div>
+<div class="column">
+  <img class="demo cursor" src="static/storageeco/25.PNG" style="width:100%" onclick="currentSlide(25)" alt="25">
+</div>
+<div class="column">
+  <img class="demo cursor" src="static/storageeco/26.PNG" style="width:100%" onclick="currentSlide(26)" alt="26">
+</div>
+<div class="column">
+  <img class="demo cursor" src="static/storageeco/27.PNG" style="width:100%" onclick="currentSlide(27)" alt="27">
+</div>
+<div class="column">
+  <img class="demo cursor" src="static/storageeco/28.PNG" style="width:100%" onclick="currentSlide(28)" alt="28">
+</div>
+<div class="column">
+  <img class="demo cursor" src="static/storageeco/29.PNG" style="width:100%" onclick="currentSlide(29)" alt="29">
+</div>
+<div class="column">
+  <img class="demo cursor" src="static/storageeco/30.PNG" style="width:100%" onclick="currentSlide(30)" alt="30">
+</div>
+<div class="column">
+  <img class="demo cursor" src="static/storageeco/31.PNG" style="width:100%" onclick="currentSlide(31)" alt="31">
+</div>
+<div class="column">
+  <img class="demo cursor" src="static/storageeco/32.PNG" style="width:100%" onclick="currentSlide(32)" alt="32">
+</div>
+<div class="column">
+  <img class="demo cursor" src="static/storageeco/33.PNG" style="width:100%" onclick="currentSlide(33)" alt="33">
+</div>
+<div class="column">
+  <img class="demo cursor" src="static/storageeco/34.PNG" style="width:100%" onclick="currentSlide(34)" alt="34">
+</div>
+</div>
+<div class="column">
+  <img class="demo cursor" src="static/storageeco/35.PNG" style="width:100%" onclick="currentSlide(35)" alt="35">
+</div>
+<div class="column">
+  <img class="demo cursor" src="static/storageeco/36.PNG" style="width:100%" onclick="currentSlide(36)" alt="36">
+</div>
+
+  </div>
+
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+    
+</body>
+</html>

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="None">
+  
+  
+  <link rel="shortcut icon" href="static/battery_paper/img/favicon.ico">
+  <title>SOC、SOH预测 - papers</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Source+Sans+Pro:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="static/battery_paper/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="static/battery_paper/css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "SOC\u3001SOH\u9884\u6d4b";
+    var mkdocs_page_input_path = "socsoh/index.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="static/battery_paper/js/jquery-2.1.1.min.js" defer></script>
+  <script src="static/battery_paper/js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <a href="">
+        <div class="logo">
+          <img src="http://qinren.tech/qinren-standard/img/logo.png" class="logo-img">
+          电池文献集锦
+        </div>
+      </a>
+
+      <div class="wy-side-nav-search">
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="static/battery_paper/search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="battery_paper">主页</a>
+                    </li>
+                </ul>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="battery_socsoh">SOC、SOH预测</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#_1">基于电化学热耦合模型的锂离子动力电池极化特性</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#soc">基于改进型能量守恒SOC估算法的电动汽车三段式智能充电方式研究</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#the-co-estimation-of-state-of-charge-state-of-health-and-state-of-function-for-lithium-ion-batteries-in-electric-vehicles">The Co-estimation of State of Charge, State of Health, and State of Function for Lithium-Ion Batteries in Electric Vehicles</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#lithium-ion-battery-remaining-useful-life-prediction-with-boxcox-transformation-and-monte-carlo-simulation">Lithium-Ion Battery Remaining Useful Life Prediction With Box–Cox Transformation and Monte Carlo Simulation</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#an-online-soc-and-soh-estimation-model-for-lithium-ion-batteries">An Online SOC and SOH Estimation Model for Lithium-Ion Batteries</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#a-review-of-state-of-health-and-remaining-useful-life-estimation-methods-for-lithium-ion-battery-in-electric-vehicles-challenges-and-recommendations">A review of state of health and remaining useful life estimation methods for lithium-ion battery in electric vehicles: Challenges and recommendations</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#dynamic-long-short-term-memory-neural-network-based-indirect-remaining-useful-life-prognosis-for-satellite-lithium-ion-battery">Dynamic Long Short-Term Memory Neural-Network-Based Indirect Remaining-Useful-Life Prognosis for Satellite Lithium-Ion Battery</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#battery-health-prognosis-using-brownian-motion-modeling-and-particle-filtering">Battery Health Prognosis Using Brownian Motion Modeling and Particle Filtering</a>
+    </li>
+    </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="battery_fast_charging">快充</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="battery_thermal">热管理</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">papers</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>SOC、SOH预测</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="socsoh">SOC、SOH预测</h1>
+<h2 id="_1">基于电化学热耦合模型的锂离子动力电池极化特性</h2>
+<ul>
+<li>中国有色金属学报 / The Chinese Journal of Nonferrous Metals. 2018;(1):142.</li>
+<li>doi:10.19476/j.ysxb.1004.0609.2018.01.17.</li>
+<li>简介：该文章基于电化学热耦合模型，建立了磷酸铁锂动力电池的模型。基于该模型和comsol仿真，可以定量给出电池在不同放电倍率下的极化情况（包括欧姆极化，浓差极化和电化学极化）。</li>
+<li>优点：该模型能给出定量的结果，因此可以给SoC、SoH的预测提供数据支持。</li>
+</ul>
+<h2 id="soc">基于改进型能量守恒SOC估算法的电动汽车三段式智能充电方式研究</h2>
+<ul>
+<li>工程设计学报 / Journal of Engineering Design. 2017;(3):273.</li>
+<li><a href="http://search.ebscohost.com/login.aspx?direct=true&amp;db=edscqv&amp;AN=edscqv.672503200&amp;lang=zh-cn&amp;site=eds-live">http://search.ebscohost.com/login.aspx?direct=true&amp;db=edscqv&amp;AN=edscqv.672503200&amp;lang=zh-cn&amp;site=eds-live</a></li>
+<li>简介：该文章在电流积分的SOC预测方法的基础上加入了对电池容量衰减和内阻损耗的考虑。基于该改进型的SOC估算法，提出了包含小电流充电、脉冲充电、恒压充电三个阶段的充电法。</li>
+<li>优点：新的SOC估算法减少了电流积分法的误差。同时三段式智能充电方法保证了安全性。</li>
+</ul>
+<h2 id="the-co-estimation-of-state-of-charge-state-of-health-and-state-of-function-for-lithium-ion-batteries-in-electric-vehicles">The Co-estimation of State of Charge, State of Health, and State of Function for Lithium-Ion Batteries in Electric Vehicles</h2>
+<ul>
+<li>IEEE Transactions on Vehicular Technology. 2018;67(1):92-103.</li>
+<li>doi:10.1109/TVT.2017.2751613.</li>
+<li>简介：该文章介绍了SoC、SoH、SoF的联合预测方法。其中，SoC的预测采用了卡尔曼滤波的算法，所得的电压值可用于SoF的估算。SoH的估算基于开路电压与SoC的关系以及电流积分，所得的容量可以作为SoC预测的参数。</li>
+<li>优点：SoC、SoH、SoF的联合预测方法提升了预测精度。SoC计算中卡尔曼滤波用到的容量可以由SoH计算的容量动态更新，提升了卡尔曼滤波的精度。</li>
+</ul>
+<h2 id="lithium-ion-battery-remaining-useful-life-prediction-with-boxcox-transformation-and-monte-carlo-simulation">Lithium-Ion Battery Remaining Useful Life Prediction With Box–Cox Transformation and Monte Carlo Simulation</h2>
+<ul>
+<li>IEEE Transactions on Industrial Electronics, Industrial Electronics, IEEE Transactions on, IEEE Trans Ind Electron. 2019;(2):1585.</li>
+<li>doi:10.1109/TIE.2018.2808918.</li>
+<li>简介：该文章采用了box-cox变换和蒙特卡罗模拟预测锂离子电池的剩余寿命。首先将电池容量进行box-cox变换，然后建立变换后的电池容量与循环次数的多项式关系。由此，可以得出锂离子电池的剩余寿命。</li>
+<li>优点：box-cox变换的计算量较小</li>
+<li>缺点：该方法有时精度不足</li>
+</ul>
+<h2 id="an-online-soc-and-soh-estimation-model-for-lithium-ion-batteries">An Online SOC and SOH Estimation Model for Lithium-Ion Batteries</h2>
+<ul>
+<li>Energies (19961073). 2017;10(4):512.</li>
+<li>doi:10.3390/en10040512.</li>
+<li>简介：该文章引入了中间变量V'，V'代表单位时间内的电压降。然后研究SOH与1/V'的关系，发现是线性关系。同时，作者发现SOH与V和1/V'有多项式关系。</li>
+<li>优点：该方法计算量较小，精度较高。</li>
+</ul>
+<h2 id="a-review-of-state-of-health-and-remaining-useful-life-estimation-methods-for-lithium-ion-battery-in-electric-vehicles-challenges-and-recommendations">A review of state of health and remaining useful life estimation methods for lithium-ion battery in electric vehicles: Challenges and recommendations</h2>
+<ul>
+<li>JOURNAL OF CLEANER PRODUCTION. 205:115-133.</li>
+<li>doi:10.1016/j.jclepro.2018.09.065.</li>
+<li>简介：该文章概括了目前主流的一些电池剩余寿命预测方法，并将其分成了三类：直接获得的方法，自适应的方法和数据驱动类的方法。其中直接法包括电流积分，开路电压法和交流阻抗谱法；自适应的方法包括卡尔曼滤波、粒子滤波和最小平方法；数据驱动类方法包括模糊逻辑和神经网络等方法。</li>
+</ul>
+<h2 id="dynamic-long-short-term-memory-neural-network-based-indirect-remaining-useful-life-prognosis-for-satellite-lithium-ion-battery">Dynamic Long Short-Term Memory Neural-Network-Based Indirect Remaining-Useful-Life Prognosis for Satellite Lithium-Ion Battery</h2>
+<ul>
+<li>APPLIED SCIENCES-BASEL. 8(11).</li>
+<li>doi:10.3390/app8112078.</li>
+<li>简介：该文章通过DLSTM来预测电池的剩余寿命。文中引入了一个中间变量TIEDVD(time interval of equal discharge voltage difference)，即等放电电压差的时间间隔来建立与RUL的关系。</li>
+<li>优点：不依赖具体的模型。</li>
+<li>缺点：需要较多的数据，且计算量较大。</li>
+</ul>
+<h2 id="battery-health-prognosis-using-brownian-motion-modeling-and-particle-filtering">Battery Health Prognosis Using Brownian Motion Modeling and Particle Filtering</h2>
+<ul>
+<li>IEEE Transactions on Industrial Electronics, Industrial Electronics, IEEE Transactions on, IEEE Trans Ind Electron. 2018;(11):8646.</li>
+<li>doi:10.1109/TIE.2018.2813964.</li>
+<li>简介：本文通过布朗运动建模和粒子滤波的算法对短期的SOH和长期的RUL进行预测。</li>
+<li>优点：对数据的依赖较少，计算量较少。</li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="static/battery_paper/fast_charging/" class="btn btn-neutral float-right" title="快充">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href=".." class="btn btn-neutral" title="主页"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href=".." style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="static/battery_paper/fast_charging/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="static/battery_paper/js/theme.js" defer></script>
+      <script src="static/battery_paper/search/main.js" defer></script>
+    <script type="text/javascript" defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
+
+<!--
+MkDocs version : 1.0.4
+Build Date UTC : 2019-04-23 13:35:58
+-->
