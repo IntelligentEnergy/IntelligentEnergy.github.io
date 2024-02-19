@@ -14,6 +14,8 @@
   <li><a href="https://www.sciencedirect.com/journal/reliability-engineering-and-system-safety"><autocolor>Reliability Engineering & System Safety</autocolor></a></li>
   <li><a href="https://www.sciencedirect.com/journal/journal-of-energy-storage"><autocolor>Journal of Energy Storage</autocolor></a></li>
   <li><a href="https://www.sciencedirect.com/journal/expert-systems-with-applications"><autocolor>Expert Systems With Applications</autocolor></a></li>
+  <li><a href="https://www.sciencedirect.com/journal/journal-of-power-sources"><autocolor>Journal of Power Sources</autocolor></a></li> 
+  <li><a href="https://www.sciencedirect.com/journal/sustainable-energy-grids-and-networks"><autocolor>Sustainable Energy, Grids and Networks</autocolor></a></li>
   <li><a href="https://mc.manuscriptcentral.com/tii"><autocolor>IEEE Transactions on Industrial Informatics</autocolor></a></li>
   <li><a href="https://pcmp.springeropen.com/"><autocolor>Protection and Control of Modern Power Systems </autocolor></a></li>
   <li><a href="https://www.springer.com/journal/11071"><autocolor>Nonlinear Dynamics</autocolor></a></li>
