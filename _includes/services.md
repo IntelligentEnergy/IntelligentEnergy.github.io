@@ -14,7 +14,6 @@
   <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=59"> <autocolor> IEEE Transactions on Power Systems </autocolor></a></li>
   <li><a href="https://www.sciencedirect.com/journal/energy-storage-materials"> <autocolor> Energy Storage Materials </autocolor></a></li>
   <li><a href="https://www.sciencedirect.com/journal/reliability-engineering-and-system-safety"> <autocolor> Reliability Engineering & System Safety </autocolor></a></li>
-  <li><a href="https://www.sciencedirect.com/journal/reliability-engineering-and-system-safety"> <autocoor> Reliability Engineering & System Safety </autocolor></a></li>
   <li><a href="https://www.sciencedirect.com/journal/journal-of-energy-storage"> <autocolor> Journal of Energy Storage </autocolor></a></li>
   <li><a href="https://www.sciencedirect.com/journal/advances-in-applied-energy"> <autocolor> Advances in Applied Energy </autocolor></a></li>
   <li><a href="https://www.sciencedirect.com/journal/expert-systems-with-applications"> <autocolor> Expert Systems With Applications </autocolor></a></li>
