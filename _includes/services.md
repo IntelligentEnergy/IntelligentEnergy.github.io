@@ -13,12 +13,11 @@
 <ul style="margin:0 0 20px;">
   <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=59"><autocolor>IEEE Transactions on Power Systems</autocolor></a></li>
   <li><a href="https://www.sciencedirect.com/journal/energy-storage-materials"><autocolor>Energy Storage Materials</autocolor></a></li>
- 
+  <li><a href="https://www.sciencedirect.com/journal/reliability-engineering-and-system-safety"><autocoor>Reliability Engineering & System Safety</autocolor></a></li>
   <li><a href="https://www.sciencedirect.com/journal/journal-of-energy-storage"><autocolor>Journal of Energy Storage</autocolor></a></li>
   <li><a href="https://www.sciencedirect.com/journal/advances-in-applied-energy"><autocolor>Advances in Applied Energy</autocolor></a></li>
   <li><a href="https://www.sciencedirect.com/journal/expert-systems-with-applications"><autocolor>Expert Systems With Applications</autocolor></a></li>
-  <li><a href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence"><autocolor>Engineering Applications of Artificial Intelligence
-</autocolor></a></li>
+  <li><a href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence"><autocolor>Engineering Applications of Artificial Intelligence</autocolor></a></li>
   <li><a href="https://www.sciencedirect.com/journal/journal-of-power-sources"><autocolor>Journal of Power Sources</autocolor></a></li> 
   <li><a href="https://www.sciencedirect.com/journal/sustainable-energy-grids-and-networks"><autocolor>Sustainable Energy, Grids and Networks</autocolor></a></li>
   <li><a href="https://mc.manuscriptcentral.com/tii"><autocolor>IEEE Transactions on Industrial Informatics</autocolor></a></li>
