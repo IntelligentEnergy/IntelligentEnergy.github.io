@@ -85,11 +85,12 @@ layout: homepage
 
 - **横向项目：** 基于图神经网络和安全强化学习的多断面潮流协同优化算法研究
 
-
+---
 ## 团队
 <ul style="margin:0 0 20px;">
 <li><a href="http://qinren.tech/recruitment"><autocolor>团队介绍，http://qinren.tech/recruitment</autocolor></a></li>
 </ul>
+---
 
 <!-- ## News -->
 
