@@ -46,9 +46,9 @@ layout: homepage
 
 - **复杂电网级联故障统计力学**
 
-- **超表面透镜结构人工智能正向设计**
+- **金属/金属基光子材料表面近场计算模型，热太阳能电池结构优化设计（Thermophotovoltaic (TPV))**
 
-- **金属/金属基光子材料表面近场计算模型，热太阳能电池结构优化设计（Thermophotovoltaic (TPV))** 
+- **超表面透镜结构人工智能正向设计**
 
 - **Applications of physics-informed neural networks in the transient stability forecasting of power systems**
 - **Remaining Useful Life Prediction of Complex Machinery**
