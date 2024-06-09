@@ -110,12 +110,12 @@ layout: homepage
 
 - **刘凯腾：** 四川电网
 
----
-## 团队
+<!-- ---
+ ## 团队
 <ul style="margin:0 0 20px;">
 <li><a href="http://qinren.tech/recruitment"><autocolor>团队介绍，http://qinren.tech/recruitment</autocolor></a></li>
 </ul>
----
+--- -->
 
 <!-- ## News -->
 
