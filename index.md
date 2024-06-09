@@ -59,6 +59,8 @@ layout: homepage
 ## 本科/研究生课程
 
 - **概率论与数理统计**（本科课程）
+  
+- **新型储能电化学物理特性下的数字化运行调度** (硕博课程）
 
 - **Introduction to Computer Simulation using Molecular Dynamics**（硕博课程，英文）
 
