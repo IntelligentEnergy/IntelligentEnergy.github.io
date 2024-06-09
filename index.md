@@ -88,6 +88,26 @@ layout: homepage
 - **广东电网横向项目：** 电网友好的储充一体化系统动态价值评估与优化调控技术研究
 
 
+
+
+<!-- ---
+ ## 团队
+<ul style="margin:0 0 20px;">
+<li><a href="http://qinren.tech/recruitment"><autocolor>团队介绍，http://qinren.tech/recruitment</autocolor></a></li>
+</ul>
+--- -->
+
+<!-- ## News -->
+
+<!-- - **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
+- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
+- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
+- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019. -->
+
+{% include_relative _includes/publications.md %}
+
+{% include_relative _includes/services.md %}
+
 ## 学生毕业去向
 
 - **张亚东：** 美团
@@ -109,21 +129,3 @@ layout: homepage
 - **张 誉 ：** 冀北电网
 
 - **刘凯腾：** 四川电网
-
-<!-- ---
- ## 团队
-<ul style="margin:0 0 20px;">
-<li><a href="http://qinren.tech/recruitment"><autocolor>团队介绍，http://qinren.tech/recruitment</autocolor></a></li>
-</ul>
---- -->
-
-<!-- ## News -->
-
-<!-- - **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019. -->
-
-{% include_relative _includes/publications.md %}
-
-{% include_relative _includes/services.md %}
