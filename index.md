@@ -36,19 +36,21 @@ layout: homepage
 
 - **复杂信息物理电力网络（cyber-physics power network）级联故障演化规律**
 
+- **物理驱动图特征嵌入向量约束深度学习多智能体**
+
+- **强化学习分布式优化控制，车网V2G和新能源微网深度强化学习调度策略，复杂风场多智能体人工智能调度**
+
 - **物理信息神经网络(physics-informed neural network)深度学习电网暂态稳定在线预测**
 
 - **基于BMS数据流在线智能电池状态预测和故障诊断, 新一代BMS人工智能多状态电池预测，电池老化价值动态评估**
 
-- **复杂设备剩余寿命预测**
+- **数据驱动人工智能复杂设备剩余寿命预测**
 
 - **复杂电网级联故障统计力学**
 
-- **强化学习分布式优化控制，车网V2G和新能源微网深度强化学习调度策略，复杂风场多智能体人工智能调度**
+- **金属/金属基光子材料表面近场计算模型，超表面透镜结构人工智能正向设计**
 
-- **金属/金属基光子材料表面近场计算模型，热太阳能电池结构优化设计（Thermophotovoltaic (TPV))**
 
-- **超表面透镜结构人工智能正向设计**
 
 - **Applications of physics-informed neural networks in the transient stability forecasting of power systems**
 - **Remaining Useful Life Prediction of Complex Machinery**
