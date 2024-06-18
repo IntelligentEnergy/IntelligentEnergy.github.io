@@ -35,8 +35,9 @@ layout: homepage
 ## 研究方向/Research Interests
 
 - **复杂信息物理电力网络（cyber-physics power network）级联故障演化规律**
-- 
+  
 - **气象电力耦合复杂系统统计力学演化**
+  
 - **气象气候尺度下新型电力系统**
 
 - **物理驱动图特征嵌入向量约束深度学习多智能体**
