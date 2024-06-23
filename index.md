@@ -36,7 +36,7 @@ layout: homepage
 
 - **复杂信息物理电力网络（cyber-physics power network）级联故障演化规律**
   
-- **气象电力耦合复杂系统统计力学演化, 气象气候尺度下新型电力系统 <a href="https://arxiv.org/abs/2406.14474"><autocolor>“Spatio-temporal Patterns between ENSO and Weather-related Power Outages in the Continental United States”</autocolor></a>**
+- **气象电力耦合复杂系统统计力学演化, 气象气候尺度下新型电力系统 <a href="https://arxiv.org/abs/2406.14474"><autocolor>Spatio-temporal Patterns between ENSO and Weather-related Power Outages in the Continental United States</autocolor></a>**
 
 - **物理驱动图特征嵌入向量约束深度学习多智能体**
 
