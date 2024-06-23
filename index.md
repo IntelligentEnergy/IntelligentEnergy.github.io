@@ -36,7 +36,7 @@ layout: homepage
 
 - **复杂信息物理电力网络（cyber-physics power network）级联故障演化规律**
   
-- **气象电力耦合复杂系统统计力学演化, 气象气候尺度下新型电力系统**
+- **气象电力耦合复杂系统统计力学演化, 气象气候尺度下新型电力系统** 
 
 - **物理驱动图特征嵌入向量约束深度学习多智能体**
 
@@ -103,10 +103,11 @@ layout: homepage
 </ul>
 --- -->
 
-<!-- ## News -->
+## News 
 
-<!-- - **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
+- **New Collabrative Work on Climate and Robustness of Power System **  Spatio-temporal Patterns between ENSO and Weather-related Power Outages in the Continental United States https://arxiv.org/abs/2406.14474
+
+<!-- - **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
 - **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
 - **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019. -->
 
