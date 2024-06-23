@@ -1,4 +1,14 @@
 main:
+  - title:  Spatio-temporal Patterns between ENSO and Weather-related Power Outages in the Continental United States
+    authors: Long Huo, <strong>Xin Chen</strong>, Kaiwen Li, Fengying Cai, Jürgen Kurths
+    conference_short: 
+    conference: 
+    pdf: https://arxiv.org/abs/2406.14474
+    code:
+    bibtex: 
+    image: ./assets/img/teaser_example.png
+    notes: 
+
   - title: 1. Graph Embedding Dynamic Feature-based Supervised Contrastive Learning of Transient Stability for Changing Power Grid Topologies
     authors: Zijian Lv, <strong>Xin Chen*</strong>, and Zijian Feng
     conference_short: 
