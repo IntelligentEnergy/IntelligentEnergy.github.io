@@ -95,7 +95,7 @@ layout: homepage
 
 ## News 
 
-- **New Collabrative Work on Climate and Robustness of Power System ** <li><a href="https://arxiv.org/abs/2406.14474"><autocolor>Spatio-temporal Patterns between ENSO and Weather-related Power Outages in the Continental United States</autocolor></a></li>
+- **New Collabrative Work on Climate and Robustness of Power System ** <a href="https://arxiv.org/abs/2406.14474"><autocolor>Spatio-temporal Patterns between ENSO and Weather-related Power Outages in the Continental United States</autocolor></a>
 
 
 <!-- ---
