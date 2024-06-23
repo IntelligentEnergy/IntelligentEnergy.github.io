@@ -93,7 +93,9 @@ layout: homepage
 
 - **广东电网横向项目：** 电网友好的储充一体化系统动态价值评估与优化调控技术研究
 
+## News 
 
+- **New Collabrative Work on Climate and Robustness of Power System ** <li><a href="https://arxiv.org/abs/2406.14474"><autocolor>Spatio-temporal Patterns between ENSO and Weather-related Power Outages in the Continental United States</autocolor></a></li>
 
 
 <!-- ---
@@ -103,13 +105,7 @@ layout: homepage
 </ul>
 --- -->
 
-## News 
 
-- **New Collabrative Work on Climate and Robustness of Power System **  Spatio-temporal Patterns between ENSO and Weather-related Power Outages in the Continental United States https://arxiv.org/abs/2406.14474
-
-<!-- - **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019. -->
 
 {% include_relative _includes/publications.md %}
 
