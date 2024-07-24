@@ -1,4 +1,14 @@
 main:
+  - title:  SOC-Boundary and Battery Aging Aware Hierarchical Coordination of Multiple EV Aggregates Among Multi-stakeholders with Multi-Agent Constrained Deep Reinforcement Learning
+    authors: <strong>Xin Chen</strong>
+    conference_short: 
+    conference: 
+    pdf: https://arxiv.org/abs/2407.13790
+    code:
+    bibtex: 
+    image: ./assets/img/teaser_example.png
+    notes: 
+
   - title:  Spatio-temporal Patterns between ENSO and Weather-related Power Outages in the Continental United States
     authors: Long Huo, <strong>Xin Chen</strong>, Kaiwen Li, Fengying Cai, Jürgen Kurths
     conference_short: 
