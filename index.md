@@ -93,6 +93,8 @@ layout: homepage
 
 - **广东电网横向项目：** 电网友好的储充一体化系统动态价值评估与优化调控技术研究
 
+- **国网****横向项目：** 基于预训练语言模型和深度强化学习的电网故障智能化处置关键技术研究
+
 ## News 
 
 - New Collabrative Work on Climate and Robustness of Power System， <a href="https://arxiv.org/abs/2406.14474"><autocolor>“Spatio-temporal Patterns between ENSO and Weather-related Power Outages in the Continental United States”</autocolor></a>
