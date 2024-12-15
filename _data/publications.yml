@@ -20,7 +20,7 @@ main:
     notes: 
 
   - title: 1. Graph Embedding Dynamic Feature-based Supervised Contrastive Learning of Transient Stability for Changing Power Grid Topologies
-    authors: Zijian Lv, <strong>Xin Chen*</strong>, and Zijian Feng
+    authors: Zijian Lv, <strong>Xin Chen*</strong>
     conference_short: 
     conference: 
     pdf: https://arxiv.org/pdf/2306.00988.pdf
@@ -40,7 +40,7 @@ main:
     notes: 
 
   - title: 3. Transferable Deep Learning Power System Short-Term Voltage Stability Assessment with Physics-Informed Topological Feature Engineering 
-    authors: Zijian Feng, <strong>Xin Chen*</strong>, Zijian Lv, Peiyuan Sun, Kai Wu
+    authors: <strong>Xin Chen*</strong>
     journal_short: 
     Journal: 
     pdf: https://arxiv.org/pdf/2303.07138.pdf
