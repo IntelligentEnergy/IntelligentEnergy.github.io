@@ -34,25 +34,14 @@ layout: homepage
 
 ## 研究方向/Research Interests
 
-- **复杂信息物理电力网络（cyber-physics power network）级联故障演化规律**
-  
-- **气象电力耦合复杂系统统计力学演化, 气象气候尺度下新型电力系统 <a href="https://arxiv.org/abs/2406.14474"><autocolor>Spatio-temporal Patterns between ENSO and Weather-related Power Outages in the Continental United States</autocolor></a>**
-
-- **物理驱动图特征嵌入向量约束深度学习多智能体**
-
-- **强化学习分布式优化控制，车网V2G和新能源微网深度强化学习调度策略，复杂风场多智能体人工智能调度**
-
+- **复杂电网图表示学习和拓扑的低维表示， Power Network Representation Learning and Low-Dimension Representation for Topology**
 - **物理信息神经网络(physics-informed neural network)深度学习电网暂态稳定在线预测**
-
-- **基于BMS数据流在线智能电池状态预测和故障诊断, 新一代BMS人工智能多状态电池预测，电池老化价值动态评估，电池异常诊断**
-
+- **复杂信息物理电力网络（cyber-physics power network）级联故障演化规律， 和复杂电网级联故障统计力学**
+- **气象电力耦合复杂系统统计力学演化, 气象气候尺度下新型电力系统 <a href="https://arxiv.org/abs/2406.14474"><autocolor>Spatio-temporal Patterns between ENSO and Weather-related Power Outages in the Continental United States</autocolor></a>**
+- **复杂网络信息流控制分层深度学习多智能体控制， 强化学习分布式优化控制，车网V2G和新能源微网深度强化学习调度策略，复杂风场多智能体人工智能调度**
 - **数据驱动人工智能复杂设备剩余寿命预测**
-
-- **复杂电网级联故障统计力学**
-
+- **基于BMS数据流在线智能电池状态预测和故障诊断, 新一代BMS人工智能多状态电池预测，电池老化价值动态评估，电池异常诊断**
 - **金属/金属基光子材料表面近场计算模型，超表面透镜结构人工智能正向设计**
-
-
 
 - **Applications of physics-informed neural networks in the transient stability forecasting of power systems**
 - **Remaining Useful Life Prediction of Complex Machinery**
@@ -115,7 +104,12 @@ layout: homepage
 
 ## 学生毕业去向
 
+- **霍龙：** 中国电科院
+
 - **张亚东：** 美团
+- **孙承乾：** 深圳电网
+- **任航：** 冀北电网
+- **顾懿：** 山东电网
 
 - **王振宇：** 德国普朗克研究所  博后
 
